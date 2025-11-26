@@ -12,11 +12,3 @@ void    *ft_memset(void *b, int c, size_t len)
     }
     return b;
 }
-
-int main(void)
-{
-    char str[] = "Hello, World!";
-    ft_memset(str, 'X', 5);
-    printf("%s\n", str);
-    return 0;
-}
